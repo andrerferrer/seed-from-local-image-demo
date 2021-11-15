@@ -1,19 +1,11 @@
 ## Goal
-<<<<<<< HEAD
-This is an app to teach how to validate attached photos to a model in Rails using `active_storage`.
-
 This demo was created from [this one](https://github.com/andrerferrer/seed-from-local-image-demo#goal).
-=======
+
 This is an app to teach how to attach photos to a model in Rails using `active_storage`.
->>>>>>> parent of ed95eee... update README
 
 [Check my other demos](https://github.com/andrerferrer/dedemos/).
 
 ## How to
-<<<<<<< HEAD
-### 1. Add custom validator
-
-=======
 ### 1. Install active_storage
 ```
 rails active_storage:install
@@ -40,6 +32,5 @@ mc_donalds = URI.open('https://www.wikirio.com.br/images/thumb/d/dc/McDonald%27s
 Restaurant.first.photo.attach(io: amareleen, filename: 'amareleen.jpg', content_type: 'image/jpg')
 Restaurant.last.photo.attach(io: mc_donalds, filename: 'amareleen.jpg', content_type: 'image/jpg')
 ```
->>>>>>> parent of ed95eee... update README
 
 Good luck, have fun!
